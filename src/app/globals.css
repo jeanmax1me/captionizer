@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.gradient-bg {
+  background: #5614B0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DBD65C, #5614B0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* In your CSS file */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* You can adjust the shadow values as needed */
+}
